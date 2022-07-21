@@ -1,0 +1,350 @@
+::-webkit-scrollbar {
+    width: 5px; 
+  }
+  ::-webkit-scrollbar-track {
+    background:rgb(233, 233, 233);
+}
+::-webkit-scrollbar-thumb {
+    background:  #6a6aff;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  
+body{
+   background-color:  RGB(237, 245, 255) !important;
+}
+nav{
+    display:flex ;
+    box-shadow: 0 2px 15px rgb(65, 65, 65) !important;
+    justify-content: space-between !important;
+  color: gray !important;
+  z-index: 10;
+  
+}
+.navbar-brand{
+    color: #6a6aff;
+}
+.btn-outline-success{
+    color:rgb(106, 106, 255) !important ;
+    border-color:rgb(106, 106, 255) !important  ;
+   
+}
+.btn-outline-success:hover {
+       background-color: aliceblue !important;
+        
+}
+.navbar-brand span{
+    color: gray;
+}
+.dropdown-toggle {
+    color: gray !important;
+}
+
+.bled-carousel{
+    color: rgb(27, 48, 58) !important;
+ 
+}
+
+.d-block{
+    height: 45vw !important;
+}
+#about{
+    display: flex;
+    justify-content: center;
+}
+.sect2 img{
+    width: 35vw;
+}
+.sect2{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    padding: 5vw;
+    font-size: 1.5vw;
+    
+}
+.sect21{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 5vw;
+}
+.sect22 {
+    display: flex;
+    align-items: flex-end;
+    gap: 5vw;
+}
+#most{
+   display: flex;
+   justify-content: center;
+   
+}
+.card-img-top{
+    height: 30vh;
+    width: 100%;
+
+}
+
+    
+
+.sect3{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vw;
+    border-top: 1px solid gray;
+}
+form{
+    margin: 0 !important;
+    
+    
+}
+footer{
+    background-color:rgb(232, 246, 255);
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(106, 106, 255) ;
+    gap: 10px;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid gray;
+   
+    
+    
+}
+footer a{
+    
+    text-decoration: none ;
+
+}
+footer i{
+    font-size:30px;
+}
+.foot-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.form-left{
+   width: 80vw;
+   
+    padding: 20px ;
+   
+    
+}
+.form-right{
+    padding: 20px;
+    width: 80vw;
+    
+}
+.log-sign{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  
+}
+
+.footform{
+    display: flex;
+    flex-direction: column;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+}
+.right-container{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.logtitle span{
+     color: rgb(106, 106, 255);
+     cursor: pointer; ;
+}
+.sectf{
+    display: flex;
+    justify-content: center;
+}
+#contact{
+    text-align: center;
+}
+.cbtn{
+    width:18.5svw !important;
+}
+
+.cards div{
+    background-color: RGB(237, 245, 255) !important;
+    
+}
+.liked{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    color: rgb(106, 106, 255) ;
+    border-color: rgb(106, 106, 255) ;
+    cursor: pointer;
+    position: relative;
+}
+#dropdown{
+    top: 2vw;
+    right: 4vw;
+    background-color: rgb(255, 238, 226);
+    border: 1px solid gray;
+   width: 20vw;
+   z-index: 10;
+   position: absolute;
+  
+   display: none;
+}
+.card2 img{
+    width:20vw !important;
+    height: 12vw;
+   
+    flex-direction: column !important;
+}
+.card2:hover{
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black;
+   gap: 10px;
+   width: fit-content !important;
+   font-size: 1.5vw;
+  
+    
+}
+.card2 span{
+    display: flex;
+    justify-content: space-around;
+}
+.card2 i{
+    cursor: pointer;
+}
+.cards{
+    padding-top: 40px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  justify-content: space-around !important;
+  gap: 10px;
+  padding-bottom: 40px;
+   
+
+}
+.card2 button{
+    justify-self: flex-end;
+    border: 0;
+    background-color: #cee4ff;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+.added i{
+    display: none;
+}
+.added button{
+width: 8vw;
+border: 0;
+background-color:RGB(206, 228, 255);
+border: 1px solid rgb(201, 190, 190);
+}
+.added{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    cursor: default;
+    
+}
+
+.card a{
+    border-top-left-radius:0 ;
+    border-top-right-radius: 0;
+}
+.body{
+    display: flex;
+}
+aside h2{
+   padding: 10px ;
+   font-size: 4vw;
+   width: 20vw;
+   text-align: center;
+}
+aside{
+    width: 25vw;
+    box-shadow: 1px 1px 5px rgb(129, 129, 129) ;
+    border: 1px solid gray;
+    background-color: #f8f9fa;
+    z-index: 100;
+    border-bottom: 0;
+    
+ 
+}
+@media only screen and (max-device-width: 667px){
+    .liked{
+        display: flex;
+           justify-content: space-between !important;
+        width: 80vw !important;
+    }
+    .added{
+        display: flex !important;
+           flex-direction: column !important;
+
+    }
+    .added button{
+        width: fit-content !important;
+    }
+ #dropdown{
+    width: 50vw !important;
+ }
+    .sect3{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .sect2{
+        font-size: 2vw;
+    }
+    .liked i{
+        display: none;
+    }
+   .aside form{
+    width: 5vw !important;
+   }
+   .aside{
+    display: none;
+   }
+   .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    
+   }
+   .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+   .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw !important;
+    height: 45vh !important;
+    font-size: 4vh;
+    
+   
+   }
+
+   .card2 img{
+    width: 80vw !important;
+   height: 30vh !important;
+   }}
